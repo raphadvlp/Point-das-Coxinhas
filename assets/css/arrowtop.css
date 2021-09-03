@@ -1,0 +1,12 @@
+#btnTop {
+    position: fixed;
+    bottom: 65px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border: none;
+    border-radius: 100%;
+    display: none;
+    cursor: pointer;
+}

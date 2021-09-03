@@ -1,0 +1,200 @@
+.banner a {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.title--section {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    height: 110px;
+    background-color: #ffcb00;
+}
+
+.title--section span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.produtos {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.item span {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.item img {
+    width: 250px;
+    height: 250px;
+}
+
+.sobre {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.atendimento,
+.local {
+    width: 400px;
+    height: 500px;
+    background-color: #ffcb00;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.atendimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.missao {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.desc--missao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+}
+
+.desc {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+}
+
+.desc-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+    font-weight: bold;
+}
+
+.semana {
+    display: flex;
+}
+
+.dia {
+    display: flex;
+    flex-direction: column;
+}
+
+.dia span {
+    padding: 7px 15px 7px 0px;
+    color: #000;
+}
+
+.horario span {
+    padding: 7px 0px 7px 0px;
+    color: #000;
+}
+
+.horario {
+    display: flex;
+    flex-direction: column;
+}
+
+.map {
+    width: 100%;
+    height: 80%;
+}
+
+iframe {
+    width: 100%;
+    height: 420px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.title--contato {
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    height: 110px;
+    background-color: #000;
+}
+
+.title--contato span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffcb00;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#contato {
+    background-color: #ffcb00;
+}
+
+.whats {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+
+footer span {
+    color: #CCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
