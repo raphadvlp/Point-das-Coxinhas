@@ -4,6 +4,7 @@
     height: 600px;
     justify-content: center;
     margin-top: 10px;
+    object-fit: cover;
 
 }
 
@@ -51,6 +52,7 @@
 .item img {
     width: 250px;
     height: 250px;
+    object-fit: cover;
 }
 
 .sobre {
@@ -183,6 +185,7 @@ iframe {
     align-items: center;
     flex: 1;
     flex-wrap: wrap;
+    object-fit: cover;
 }
 
 footer {

@@ -8,6 +8,7 @@
         height: 550px;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
     }
 
     .item img {
@@ -36,6 +37,7 @@
         height: 400px;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
     }
 
     .item img {
@@ -92,6 +94,7 @@
         height: 350px;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
     }
 }
 
@@ -103,10 +106,11 @@
         height: 300px;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
     }
 } 
 
-@media (max-width: 525px) {
+@media (max-width: 530px) {
 
     .banner a {
         display: flex;
@@ -114,12 +118,76 @@
         height: 250px;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
     }
     
 }
 
 /*MOBILE*/
-@media (max-width: 425px) {
+@media (max-width: 630px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 38px;
+    }
+
+
+    .item img {
+        width: 135px;
+        height: 135px;
+    }
+
+    .item span {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .atendimento,
+    .local {
+    width: 208px;
+    height: 308px;
+    background-color: #ffcb00;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    }
+
+    .missao {
+        font-size: 10px;
+    }
+
+    .desc-title {
+        font-size: 10px;
+    }
+
+    .desc--missao {
+        font-size: 10px;
+    }
+
+    .dia span {
+        font-size: 11px;
+        padding: 7px 15px 7px 0px;
+        color: #000;
+    }
+    
+    .horario span {
+        font-size: 11px;
+        padding: 7px 0px 7px 0px;
+        color: #000;
+    }
+
+    iframe {
+        width: 100%;
+        height: 258px;
+        border-bottom-right-radius: 20px;
+    }
+       
+}
+
+@media (max-width: 440px) {
 
     .banner a {
         display: flex;
@@ -127,6 +195,7 @@
         height: 200px;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
     }
 
     .item {
@@ -197,14 +266,90 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
+
+    .banner {
+        max-width: 80%;
+        max-height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: cover;
+    }
 
     .banner a {
         display: flex;
-        width: 175px;
-        height: 175px;
+        max-width: 80%;
+        max-height: 80%;
         justify-content: center;
         margin-top: 10px;
+        object-fit: cover;
+    }
+
+    .whats img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 25px;
+    }
+
+
+    .item img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .item span {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .sobre {
+        flex-direction: column;
+    }
+
+    .atendimento,
+    .local {
+    width: 180px;
+    height: 280px;
+    background-color: #ffcb00;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    }
+
+    .missao {
+        font-size: 9px;
+    }
+
+    .desc--missao {
+        font-size: 9px;
+    }
+
+    .dia span {
+        font-size: 9px;
+        padding: 7px 15px 7px 0px;
+        color: #000;
+    }
+    
+    .horario span {
+        font-size: 9px;
+        padding: 7px 0px 7px 0px;
+        color: #000;
+    }
+
+    iframe {
+        width: 100%;
+        height: 236px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     .whats img {
